@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Minha Lista</h1>
+            <p>Gerencie seus itens dia após dia</p>
+        </header>
+
+        <main>
+
+            <section class="habit-form-section">
+                <form id="formulario"  class="form-group">
+                    <input type="text" id="meuInput" placeholder="Digite algo para adicionar..." required>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </section>
+
+            <section class="habit-list-section">
+                <ul id="Lista"></ul>
+                <p id="avisoMsg" class="empty-massage">Nenhum item cadastrado ainda</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Nicolas Marques Cavalheiro</p>
+        </footer>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
